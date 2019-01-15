@@ -1,7 +1,7 @@
 zuul.prefix:  /api
 zuul.ignored-services: "*"
-zuul.routes.customerservice: /customers/**
-zuul.routes.furnitureservice: /furniture/**
+zuul.routes.customerservice: /v1/**
+zuul.routes.furnitureservice: /v1/**
 zuul.routes.saleservice: /sales/**
 zuul.routes.drawingservice: /drawings/**
 #zuul.routes.licensestatic.path: /licensestatic/**
