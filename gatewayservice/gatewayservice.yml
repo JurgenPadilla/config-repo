@@ -4,7 +4,7 @@ zuul.routes.customerservice: /customer/**
 zuul.routes.furnitureservice: /furniture/**
 zuul.routes.saleservice: /sales/**
 zuul.routes.drawingservice: /drawings/**
-zuul.routes.drawingservice: /drawings/**
+zuul.routes.authenticationservice: /authentication/**
 #ribbon.eureka.enabled: false
 #hystrix.command.customerservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #customerservice.ribbon.ReadTimeout: 2
